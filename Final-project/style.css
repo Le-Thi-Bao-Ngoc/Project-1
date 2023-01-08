@@ -1,0 +1,220 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#menu{
+    display: flex;
+}
+.menu-item{
+    font-family: Montserrat,sans-serif;
+    list-style: none;
+    margin-left: 10px;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    color: white
+}
+svg{
+    width: 35px;
+    color: white;
+}
+.jame{
+    color: white;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(108, 172, 166);
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+iframe{
+    margin: 20px;
+}
+img{
+    margin: 20px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+#sign-a:hover{
+    color: rgb(34, 34, 34);
+}
+.sign{
+    text-decoration: none;
+    color: white;
+}
+.sign:hover{
+    color: rgb(34, 34, 34);
+}
+.press{
+    list-style: none;
+    margin-left: 10px;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(197, 37, 157);
+    border-radius: 5px;
+}
+.menu-item:hover{
+    background-color: rgb(34, 34, 34);
+}
+#border{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: Average,serif;
+    color: rgb(50, 50, 50);
+}
+.prg{
+    font-size: larger;
+    text-align: center;
+    width: 1000px;
+    color: rgb(143, 123, 87);
+}
+.text-a{
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+.svg{
+    position: absolute;
+    right: 12px;
+    top: 32px;
+}
+.space{
+    width: 100px;
+}
+.space-1{
+    width: 25px;
+}
+.height{
+    height: 25px;
+}
+
+.svg:hover{
+    fill: rgb(31, 32, 34);
+}
+.h1{
+    margin: 12px;
+}
+.here{
+    display: flex;
+    justify-content: center;
+    color: rgb(143, 123, 87);
+}
+.pic{
+    display: flex;
+    justify-content: space-around;
+    justify-content: left;
+}
+.food-pic{
+    margin: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+.image-1{
+    display: inline;
+    margin: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+.img-img{
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+.img-img:hover{
+    width: 310px;
+    height: 410px;
+}
+#icon{
+    position: absolute;
+    right: 65px;
+    margin: 24px;
+    fill: white;
+}
+.acon{
+    width: 25px;
+    justify-content: space-between;
+}
+.recipe{
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(31, 32, 34);
+}
+.recipe-2{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(31, 32, 34);
+}
+.recipe-2:hover{
+    color: rgb(110, 147, 189);
+}
+.recipe-1{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(31, 32, 34);
+    font-size: 18px;
+}
+h2{
+    font-style: italic;
+    font-size: 50px;
+}
+Footer{
+    display: flex;
+    justify-content: space-between;
+    height: 165px;
+    color: white;
+    background-color: rgb(92, 159, 161);
+}
+.a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.all{
+    font-size: 13px;
+    padding: 35px;
+    font-style: bold;
+    font-family: Montserrat,sans-serif;
+}
+.acon{
+    padding: 12px;
+}
+.acon:hover{
+    fill: rgb(34, 34, 34);
+}
+div{
+    display: inline;
+}
+.a:hover{
+    color: black;
+}
+#all{
+    display: flex;
+}
+.recipe:hover{
+    color: rgb(110, 147, 189);
+}
+.recipe-1:hover{
+    color: rgb(110, 147, 189);
+}
+#feat{
+    display: block;
+}
+
