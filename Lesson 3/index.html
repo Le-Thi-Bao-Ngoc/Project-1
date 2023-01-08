@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+<style>
+    h1{
+        font-family: 'Nabla', cursive;
+    }
+    #doi-font{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    .doi-mau{
+        color: aqua;
+    }
+    .item{
+        width:150px;
+        height:150px;
+        background-color:aqua;
+        border:3px solid burlywood;
+        display:inline-block;
+        text-align:center;
+    }
+    #container{
+        display:flex;
+        flex-wrap:wrap;
+        width:700px;
+        height:350px;
+        border:3px solid saddlebrown;
+        justify-content: space-between;
+        align-items: center;
+    }
+</style>
+</head>
+<body>
+    <!-- Flex là trình bày các thẻ theo chiều ngang -->
+    <!-- Muốn dùng được flex box thì phaircos thẻ cha (container)
+    -Thẻ cha:+bắt buộc phải có display:flex
+             +flex-wrap:giúp 
+    -Thẻ con:
+    -->
+        <div id="container">
+        <div class="item">div1</div>
+        <div class="item">div2</div>
+        <div class="item">div3</div>
+        <div class="item">div4</div>
+        <div class="item">div5</div>
+        <div class="item">div6</div>
+        <div class="item">div7</div>
+        <div class="item">div8</div>
+    </div>
+    <h1>Hello</h1>
+    <h2 class="doi-mau">ABCDEF</h2>
+    <h3 id="doi-font">abcdef</h3>
+    <h3 class="doi-mau">123456</h3>
+</body>
+</html>
